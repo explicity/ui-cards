@@ -61,7 +61,58 @@
   transition: 0.2s;
 }
 .card-content header .title:hover {
-  color: #7b7992;
+  color: #fe8a39;
+}
+.card-content .content-details {
+  padding: 10px 0;
+}
+.card-content .content-details-item {
+  padding: 0 5px;
+  flex: 1;
+}
+.card-content .progress {
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-size: 9px;
+}
+.card-content .skills .title {
+  color: #0d0925;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.card-content .skills-list-item {
+  margin-bottom: 3px;
+}
+.card-content .skills-list-item i {
+  font-size: 17px;
+  color: #fe8a39;
+  vertical-align: middle;
+}
+.card-content .skills-list-item span {
+  font-size: 13px;
+}
+
+.content-details {
+  display: flex;
+  justify-content: space-between;
+}
+.content-details-item i {
+  font-size: 18px;
+  vertical-align: middle;
+}
+.content-details-item .value {
+  color: #fe8a39;
+  margin-left: 3px;
+  vertical-align: bottom;
+  font-size: 14px;
+  font-weight: 600;
+}
+.content-details-item .title {
+  display: block;
+  font-size: 10px;
+  font-weight: 300;
+  margin-top: 2px;
 }
 
 /*# sourceMappingURL=Cards.css.map */
