@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+body {
+  background-color: #d6d6d6;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.card {
+  &-wrap {
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    border-radius: 25px;
+    padding: 25px;
+    height: 300px;
+    max-width: 500px;
+    background: #fff;
+    position: relative;
+  }
+
+  &-image {
+    box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2);
+    border-radius: 20px;
+    transform: translateX(-80px);
+    height: 200px;
+    width: 200px;
+    flex-shrink: 0;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
+      border-radius: 20px;
+      opacity: 0.8;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 20px;
+    }
+  }
+}
