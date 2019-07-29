@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
-@import './layout/Cards.scss';
 // colors
 $main-bg: #d6d6d6;
+$main-theme: #fe8a39;
+$title-color: #0d0925;
+$secondary-color: #4c4c4c;
 
 // font-families
 $main-text: 'Fira Sans', sans-serif;
+
+@import './layout/Cards.scss'; 
 
 * {
   box-sizing: border-box;
